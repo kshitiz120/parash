@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+   
+  
+}
+
+
+
+a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Kalnia', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem;
+    transition: 0.2 ease-in;
+
+}
+a:hover{
+    color: rgb(41, 221, 41);
+
+}
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;  
+    gap: 20px;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-inline: 40px;
+    padding-top: 20px;
+    justify-content: space-between;
+    height: 5px;
+
+    
+}
+.logo{
+    display: flex;
+    font-family: 'Kalnia', serif;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    gap: 3px;
+}
+
+.btn{
+    width: 80px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+   
+    font-family: 'Poppins', sans-serif;
+}
+.login{
+    background-color: white;
+    color: green;
+}
+.signup{
+    background-color:rgb(44, 187, 44);
+    color: white;
+
+}
+
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    margin: 20px;
+   
+}
+
+.head-1{
+    text-transform: capitalize;
+    
+
+}
+.button-two{
+    display: flex;
+   gap: 450%;
+}
+.btn-2{
+    background-color: rgb(40, 189, 40);
+    border: 1px solid white;
+    padding: 30px;
+    border-radius: 10px;
+    
+
+}
+
+.main{
+   height: 140vh;
+    width: 100%;
+    background-color: #282a35;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+   
+}
+.heading{
+    margin:30px 5px 20px 5px;
+    width: 600px;
+
+}
+.heading .head-1{
+    color:#fff4a3;
+    font-size:25px;
+    font-family: "Source Sans Pro", sans-serif;
+
+   
+}
+.head-2{
+    font-size: 20px;
+}
+.heading p{
+    margin: 10px;
+}
+/* style of topic */
+.free-tutorial{
+display: flex;
+justify-content: center;
+align-items: center;
+
+    
+}
+.feature{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+  
+    
+   }
+h4,p{
+    color: white;
+    font-size: 15px;
+}
+
+.border{
+    background-color:rgba(255, 255, 255, 0.1);
+
+    padding: 5px;
+    border-radius: 5px;
+    height: 100px;
+    
+    
+}
+.link-1{
+    color:black;
+}
+.border:hover{
+    background-color: black;
+}
+
+h4{
+    color:#fff4a3;
+
+}

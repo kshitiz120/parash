@@ -1,0 +1,269 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+   
+  
+}
+
+
+
+a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Kalnia', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem;
+    transition: 0.2 ease-in;
+
+}
+a:hover{
+    color: rgb(41, 221, 41);
+
+}
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;  
+    gap: 20px;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-inline: 40px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    font-family: 'Kalnia', serif;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    gap: 3px;
+}
+
+button{
+    width: 80px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+   
+    font-family: 'Poppins', sans-serif;
+}
+.login{
+    background-color: white;
+    color: green;
+}
+.signup{
+    background-color:rgb(44, 187, 44);
+    color: white;
+
+}
+
+/* hero/section */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 60px;
+    padding-block: 50px;
+}
+.hero-black{
+    font-size:2.8rem;
+    color: rgb(10, 10, 10);
+    opacity: 0.9;
+
+}
+.hero-green{
+    color: rgb(9, 170, 9);
+    font-size: 2.8rem;
+    opacity: 0.8;
+    margin-top:-10px ;
+}
+.register-btn{
+    width: 130px;
+    height: 45px;
+    background-color: green;
+    color: white;
+    font-family: 'Poppins', sans-serif;;
+}.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.community{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+.community h1{
+    font-size:1.6rem;
+    opacity: 0.8;
+}
+.community-boxs{
+    display: flex; 
+    padding-block:40px ;  
+    justify-content: space-between; 
+    padding-inline: 150px;
+}
+
+.boxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+}
+
+.boxs, p{
+    opacity: 0.8;
+    font-size: 0.85rem;
+    
+}
+/* unsent section */
+.unsent{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.unsent-content{
+    width: 60%;
+   
+    
+}
+
+.unsent-image{
+    width: 40%;
+}
+.unsent-image img{
+    width: 100%;
+}
+.unsent-content h2{
+    font-size: 1.8rem;
+    opacity: 0.8;
+}
+.unsent-content p{
+    font-size:.85rem;
+}
+/* helping section */
+
+.helping{
+    font-family:'Poppins', sans-serif; 
+    padding-inline:120px ;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding-block: 50px;
+    background-color: rgb(250, 241, 241);
+    
+
+}
+.helping-content{
+    width: 560px;
+}
+
+ .green{
+    color: rgb(9, 170, 9);
+   
+}
+.helping-box{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    gap: 3px;
+   
+
+}
+.helping-box p{
+    font-size:0.85rem;
+}
+.helping-box h2{
+    opacity: 0.8;
+}
+.helping-icon{
+    display: flex;
+    flex-wrap:wrap;
+}
+.learn{
+    margin-top: 40px;
+}
+/* fotter section */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(10, 10, 10);
+    color:white;
+    padding-block: 25px;
+    padding-inline: 35px;
+    font-family:'Poppins', sans-serif;  ;
+
+}
+   .footer-logo p{
+    display: flex;
+    flex-direction: column;
+   }
+   .footer-logo p{ 
+    font-size:0.85rem;
+   }
+   .footer-list ul{
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+   }
+    .footer-list ul li{
+        font-size: 0.9rem;
+    }
+
+   
+   .footer-inputfield{
+  
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    border:1px solid black;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    
+    
+    
+   }
+
+.footer-input h2,h1{
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.footer-icons i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    
+ 
+}
